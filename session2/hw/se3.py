@@ -1,0 +1,6 @@
+print('Hello, ',end='')
+print("Im Baymax ",end='')
+print("nice to meet you")
+print()
+print("NOTE: dont have shift+3, instead, £ ")
+print()

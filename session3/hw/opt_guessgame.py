@@ -15,8 +15,4 @@ while loop==1:
         guess = int(input("guess my number between 0-100: "))
     else:
         print("Bingo!")
-        choice = input("wanna play again? (Y/N)")
-        if (choice == "N") or (choice == "n"):
-            loop = 0
-        else: 
-            guess = int(input("guess my number between 0-100: "))
+        loop = 0

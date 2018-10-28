@@ -20,7 +20,11 @@ while loop == 2:
             guess = input("your guess: ")
         else: 
             print("IMPRESSIVE")
-            loop = 0
+            choice = input("Continue? (Y/N) ")
+            if (choice == "y") or (choice == "Y"):
+                loop = 2
+            elif (choice == "n") or (choice == "N"):
+                loop = 0
                         
                 
 

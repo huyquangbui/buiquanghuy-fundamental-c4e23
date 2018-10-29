@@ -17,7 +17,7 @@ while loop == 2:
         else:
             print("Bingo!")
             choice = input("Continue? (Y/N) ")
-            if (choice == "y") or (choice == "Y"):
+            if (choice == "Y"):
                 loop = 2
-            elif (choice == "n") or (choice == "N"):
+            elif  (choice == "N"):
                 loop = 0
